@@ -1,5 +1,4 @@
 #include <stdio.h>
-#incluse <string.h>
 
 int main(){
     char str1[100];
