@@ -6,6 +6,6 @@ int main(){
     char hobby[50];
     scanf("%s%f%s",name, &age, hobby);
     scanf("%f",&age);
-    print("Name: %s\nAge: %f\nHobby: %s",name, age, hobby);
+    print("\nName: %s\nAge: %f\nHobby: %s",name, age, hobby);
     return 0;
 }
