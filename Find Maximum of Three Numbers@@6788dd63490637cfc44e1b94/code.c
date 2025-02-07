@@ -1,15 +1,15 @@
 #include <stdio.h>
 
 int main(){
-    int a,b,c;
-    scanf("%d%d%d",&a,&b,&c);
+    float a,b,c;
+    scanf("%f%f%f",&a,&b,&c);
     if((a>b) && (a>c)){
-        printf("%d",a)
+        printf("%f",a)
     }
     else if((b>a) && (b>c)){
-        printf("%d",b);
+        printf("%f",b);
     } 
     else{
-        printf("%d",c);
+        printf("%f",c);
     }
 }
