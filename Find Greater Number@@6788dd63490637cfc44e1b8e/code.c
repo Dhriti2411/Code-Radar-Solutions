@@ -9,4 +9,7 @@ int main(){
     else if(b>a){
         printf("%d",b);
     }
+    else if(a==b==0){
+        printf("0");
+    }
 }
