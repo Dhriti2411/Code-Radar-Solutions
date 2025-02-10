@@ -1,12 +1,15 @@
 #include <stdio.h>
-
 int main(){
-    int a;
+    int a; 
     scanf("%d",&a);
-    if(a>1 && a%a==0 && a%1==0){
+    if(a==2 || a==3 || a==5 || a==7 || a==11 || a==13 ){
         printf("Prime");
     }
-    else{
-        printf("Not prime");
+    else if(a%2==0 || a%3==0){
+        printf("Not Prime");
     }
+    else{
+        printf("Prime");
+    }
+    return 0;
 }
