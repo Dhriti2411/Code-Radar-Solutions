@@ -7,7 +7,7 @@ int main(){
     if(op=='+'){
         printf("%d", a+b);
     }
-    elif(op=='-'){
+    else if(op=='-'){
         printf("%d", a-b);
     }
    
