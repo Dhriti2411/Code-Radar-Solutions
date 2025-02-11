@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
-    char op;
     int a,b;
+    char op;
     scanf("%d%d",&a,&b);
     scanf("%c",&op);
     if(op=='+'){
@@ -10,6 +10,13 @@ int main(){
     else if(op=='-'){
         printf("%d", a-b);
     }
-   
-    
+    else if(op=='*'){
+        printf("%d",a*b);
+    }
+    else if(op=='/' && b!=0 && a%b==0){
+        printf("%d",a/b);
+    }
+    else{
+        printf("error");
+    }
 }
