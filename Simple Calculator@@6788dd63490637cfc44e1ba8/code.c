@@ -1,9 +1,15 @@
 #include <stdio.h>
 int main(){
     char op;
-    float a,b;
-    scanf("%f%f%c",&a,&b,&op);
-    if(op =='+'){
-        printf(".%2f", a+b);
+    int a,b;
+    scanf("%d%d",&a,&b);
+    scanf("%c",&op);
+    if(op=='+'){
+        printf("%d", a+b);
     }
+    elif(op=='-'){
+        printf("%d", a-b);
+    }
+   
+    
 }
